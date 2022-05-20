@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #efefef;
+}
+
+#pageContent{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+}
+
+#pageContent .gameContainer{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.test{
+  /* CSS HEX */
+  --yellow-green-crayola: #d9ed92;
+  --yellow-green-crayola-2: #b5e48c;
+  --granny-smith-apple: #99d98c;
+  --ocean-green: #76c893ff;
+  --keppel: #52b69a;
+  --viridian-green: #34a0a4;
+  --blue-munsell: #168aad;
+  --cg-blue: #1a759f;
+  --lapis-lazuli: #1e6091;
+  --yale-blue: #184e77;
+
+  /* CSS HEX */
+  --skobeloff: #006466ff;
+  --midnight-green-eagle-green: #065a60ff;
+  --midnight-green-eagle-green-2: #0b525bff;
+  --midnight-green-eagle-green-3: #144552ff;
+  --charcoal: #1b3a4bff;
+  --prussian-blue: #212f45ff;
+  --space-cadet: #272640ff;
+  --dark-purple: #312244ff;
+  --dark-purple-2: #3e1f47ff;
+  --palatinate-purple: #4d194dff;
+}
